@@ -150,7 +150,6 @@ export default function Woman() {
             opacity: 0,
             duration: .8,
             delay: .3
-
         }, 0)
     }, { scope: Container })
 
