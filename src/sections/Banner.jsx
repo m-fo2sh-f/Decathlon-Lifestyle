@@ -36,17 +36,15 @@ export default function Banner() {
             ease: 'power3.inOut',
             stagger: 0.15,
         }).from(videosY, {
-            scaleY: 0,
-            transformOrigin: 'top', // عشان يكبر من فوق لتحت
+            clipPath: 'inset(0 0 100% 0)',
+            transformOrigin: 'top',
             duration: .8,
             ease: "none",
-            // scrollTrigger: triggerOptions // بنستخدم نفس الـ trigger
         }).from(videosX, {
-            scaleX: 0,
-            transformOrigin: 'left', // ✨ مهم: عشان يكبر من الشمال لليمين
+            clipPath: 'inset(0 100% 0 0)',
+            transformOrigin: 'left',
             duration: .8,
             ease: "none",
-            // scrollTrigger: triggerOptions // بنستخدم نفس الـ trigger
         }, "<"); // ✨ الحل كله في العلامة دي
     }, { scope: Container });
 
