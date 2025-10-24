@@ -223,17 +223,17 @@ export default function Men() {
                                 <ProductCard product={product3} />
                             </Box>
                             <Divider orientation="vertical" flexItem sx={{ height: '100%' }} />
-                            <Box sx={{ width: '50%', bgcolor: 'blue', height: '80%' }} >
+                            <Box sx={{ width: '50%', height: '80%' }} >
                                 <ProductCard delay={350} product={product4} />
                             </Box>
                         </Stack>
                         <Divider orientation="vertical" flexItem sx={{ height: '100%', display: { md: 'block', xs: 'none' } }} />
                         <Stack direction={'row'} sx={{ width: { md: '50%', xs: '100%' }, height: '100%' }}>
-                            <Box sx={{ width: '50%', bgcolor: 'green', height: '80%' }} >
+                            <Box sx={{ width: '50%', height: '80%' }} >
                                 <ProductCard delay={700} product={product5} />
                             </Box>
                             <Divider orientation="vertical" flexItem sx={{ height: '100%' }} />
-                            <Box sx={{ width: '50%', bgcolor: 'blue', height: '80%' }} >
+                            <Box sx={{ width: '50%', height: '80%' }} >
                                 <ProductCard delay={1050} product={product6} />
                             </Box>
                         </Stack>
