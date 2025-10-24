@@ -12,7 +12,7 @@ import Footer from './component/Footers';
 function App() {
 
   return (
-    <Box sx={{ height: '900vh', overflow: 'hidden' }}>
+    <Box sx={{ overflow: 'hidden' }}>
       <Hero />
       <Banner />
       <Section3 />
